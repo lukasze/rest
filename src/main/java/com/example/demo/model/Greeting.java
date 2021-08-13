@@ -19,6 +19,16 @@ public class Greeting {
 	private String cientName;
 	private String greetingMsg;
 	private LocalDateTime localDateTime;
+		
+	public Greeting () {
+		
+	}
+	public Greeting(String cientName, String greetingMsg, LocalDateTime localDateTime) {
+		super();
+		this.cientName = cientName;
+		this.greetingMsg = greetingMsg;
+		this.localDateTime = localDateTime;
+	}
 	public Long getId() {
 		return id;
 	}
